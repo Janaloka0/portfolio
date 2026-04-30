@@ -14,5 +14,9 @@ export default defineConfig({
         watch: {
             ignored: ['**/storage/framework/views/**'],
         },
+        host: '0.0.0.0',
+        hmr: {
+            host: '8dfrslkn-8000.devtunnels.ms'
+        }
     },
 });
